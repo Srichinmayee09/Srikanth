@@ -6,6 +6,7 @@ export const SHEET_IDS = {
   institutional: "1KxIj7Q56KZSU3Wt3f-jCQta9We5PjLaQRcDToFOUnOw",
   journalPublications: "1VLUERAJWt0fuDC6O40pEv0AjJ-2bG0pFIvRVPk_W1Pk",
   conferencePublications: "1Yn7MYLyS3LXzShs0i98uZV5E7selxAEXp02_EClyJkI",
+  books: "",
   researchProjects: "1QQdTZ4SP4rEV-MyaBn9ikSKuIUS3xk0SHRFa8vulwoA",
   patents: "1UkqqdV8m_auqcjT2Zin6NaDZF92NPLTljJpjZRqPGZI",
   fdp: "17Fu5aZ0aoDU26UMClLS5xg45sgMBdgdD7m93j5zfTHU",
@@ -39,6 +40,7 @@ export const SECTION_TITLES: Record<keyof typeof SHEET_IDS, string> = {
   declaration: "Declaration",
   awards: "Awards & Recognitions",
   extension: "Extension & Outreach",
+  skills: "Skills & Expertise",
 
   onlineProfiles: "Connect",
   contactMe: "Contact Me",
